@@ -1,5 +1,5 @@
 ---
-permalink: /住宿推荐/night-5-6-南澳岛/MUMU泊木·拾陸間
+permalink: /住宿推荐/night-5-6-南澳岛/MUMU泊木·拾陸間/
 ---
 
 # 🥈 MUMU泊木·拾陸間
