@@ -46,7 +46,6 @@ export default [
             collapsable: true,
             sidebarDepth: 1,
             children: [
-              "住宿推荐/night-7-潮州收官/回到古城民宿.md",
               "住宿推荐/night-7-潮州收官/乃兴石湖休闲避暑山庄.md",
             ],
           },
