@@ -1,90 +1,44 @@
 export default [
-  "",
   {
     title: "📋 攻略导航",
     collapsable: false,
     children: [
-      "行前须知.md",
-      "每日行程.md",
-      "预算汇总.md",
-      "热门打卡.md",
-      "避坑提醒.md",
-      "图片来源.md",
+      "/攻略/行前须知",
+      "/攻略/每日行程",
+      "/攻略/预算汇总",
+      "/攻略/热门打卡",
+      "/攻略/避坑提醒",
+      "/攻略/图片来源",
     ],
   },
   {
-    title: "🏠 住宿详情",
-    collapsable: true,
-    sidebarDepth: 1,
+    title: "🏠 住宿推荐",
+    collapsable: false,
     children: [
-      {
-        title: "Night 1：潮州古城（1晚）",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          "住宿推荐/night-1-潮州古城/潮州古城住宿指南.md",
-          "住宿推荐/night-1-潮州古城/咏而归.md",
-          "住宿推荐/night-1-潮州古城/如南里美墅.md",
-          "住宿推荐/night-1-潮州古城/裕德居民宿.md",
-        ],
-      },
-      {
-        title: "Night 2–3：汕头市区（2晚）",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          "住宿推荐/night-2-3-汕头市区/维也纳酒店-详情.md",
-        ],
-      },
-      {
-        title: "Night 4–5：南澳岛（2晚）",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          "住宿推荐/night-4-5-南澳岛/南澳岛住宿指南.md",
-          "住宿推荐/night-4-5-南澳岛/三合小院民宿.md",
-          "住宿推荐/night-4-5-南澳岛/一方院子.md",
-          "住宿推荐/night-4-5-南澳岛/居山欣海民宿.md",
-          "住宿推荐/night-4-5-南澳岛/浠汐里海景民宿.md",
-          "住宿推荐/night-4-5-南澳岛/安澜琉光海宿.md",
-        ],
-      },
+      "/攻略/住宿推荐",
     ],
   },
   {
-    title: "📎 备选住宿",
+    title: "🏡 潮州古城民宿详情",
     collapsable: true,
     sidebarDepth: 1,
     children: [
-      {
-        title: "Night 1：潮州古城（1晚）",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          "住宿推荐/night-1-潮州古城/耀和别院·清代庭院.md",
-          "住宿推荐/night-1-潮州古城/潮·颂居-Guesthouse.md",
-          "住宿推荐/night-1-潮州古城/绿洲庭院民宿.md",
-        ],
-      },
-      {
-        title: "Night 2–3：汕头市区（2晚）",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          "住宿推荐/night-2-3-汕头市区/维也纳酒店.md",
-        ],
-      },
-      {
-        title: "Night 4–5：南澳岛（2晚）",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          "住宿推荐/night-4-5-南澳岛/海棠里·观海民宿.md",
-          "住宿推荐/night-4-5-南澳岛/MUMU泊木·拾陸間.md",
-          "住宿推荐/night-4-5-南澳岛/书野家辰夕海景民宿.md",
-          "住宿推荐/night-4-5-南澳岛/后宅镇经济型客栈.md",
-        ],
-      },
+      "/攻略/住宿推荐/night-1-潮州古城/潮州古城住宿指南",
+      "/攻略/住宿推荐/night-1-潮州古城/咏而归",
+      "/攻略/住宿推荐/night-1-潮州古城/如南里美墅",
+      "/攻略/住宿推荐/night-1-潮州古城/裕德居民宿",
+      "/攻略/住宿推荐/night-1-潮州古城/耀和别院·清代庭院",
+      "/攻略/住宿推荐/night-1-潮州古城/潮·颂居-Guesthouse",
+      "/攻略/住宿推荐/night-1-潮州古城/绿洲庭院民宿",
+    ],
+  },
+  {
+    title: "📎 备选与存档",
+    collapsable: true,
+    sidebarDepth: 1,
+    children: [
+      "/攻略/住宿推荐/备选住宿",
+      "/攻略/住宿推荐/可选替代",
     ],
   },
 ];

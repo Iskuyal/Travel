@@ -6,11 +6,11 @@ import extraSideBar from "./extraSideBar";
 
 const author = "潮州深度游攻略组";
 const domain = "https://chaoshan-guide.com";
-const tags = ["潮州", "旅游攻略", "自驾游", "潮汕", "南澳岛", "汕头"];
+const tags = ["潮州", "旅游攻略", "自驾游", "潮州深度游", "潮州美食", "潮州民宿"];
 
 export default defineConfig({
   title: "潮州深度慢游攻略",
-  description: "潮州·潮汕地区8天7晚深度慢游攻略，含自驾路线、住宿推荐、每日行程、预算汇总、避坑指南",
+  description: "潮州7天6晚深度慢游攻略，含自驾路线、住宿推荐、每日行程、预算汇总、避坑指南——全程住潮州古城，不走回头路",
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -20,7 +20,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "潮州旅游攻略, 潮汕自驾游, 南澳岛攻略, 凤凰山旅游, 汕头旅游, 潮州美食, 潮州住宿推荐, 潮州8日游",
+          "潮州旅游攻略, 潮州自驾游, 凤凰山旅游, 潮州美食, 潮州住宿推荐, 潮州7日游, 广济桥灯光秀, 青岚怪臼谷",
       },
     ],
     // 百度统计
