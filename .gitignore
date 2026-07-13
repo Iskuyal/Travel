@@ -123,3 +123,6 @@ dist
 .pnp.*
 
 /.vuepress/dist/
+
+# Firecrawl cache
+.firecrawl/
